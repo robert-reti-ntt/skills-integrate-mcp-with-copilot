@@ -1,3 +1,17 @@
+/* Filter bar styles */
+#activity-filters {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 18px;
+  align-items: center;
+}
+#activity-filters input,
+#activity-filters select {
+  padding: 6px 10px;
+  border: 1px solid #bbb;
+  border-radius: 4px;
+  font-size: 1em;
+}
 * {
   box-sizing: border-box;
   margin: 0;
